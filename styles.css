@@ -94,6 +94,7 @@
 }
 
 
+
 @media (max-width: 768px) {
     .social_media ul {
         justify-content: space-around;
@@ -115,9 +116,15 @@
 }
 
 
+@media (min-width: 200px) {
+    .body{
+        padding: 0;
+        width: auto; 
+    }
+}
 
 body {
-    padding: 80px;
+    padding: 200px;
     background-color: #323242;
 
 }
@@ -169,6 +176,7 @@ footer {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease, padding 0.5s ease;
+    text-align: center;
 }
 
 .accordion input[type="radio"]:checked + label + .content {
@@ -185,8 +193,11 @@ h2{
     font-size: 48px;
     vertical-align: middle; 
     padding: 5px;
-
+   
 }
 
 
+label{
+    text-align: center;
+}
 
